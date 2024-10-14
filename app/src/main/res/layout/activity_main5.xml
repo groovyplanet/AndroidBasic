@@ -33,9 +33,11 @@
         android:paddingTop="10dp"
         android:paddingEnd="10dp"
         android:layout_marginBottom="10dp"
+        android:onClick="handleClick"
         />
 
     <Button
+        android:id="@+id/gender_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="( 남 / 여 ) 선택"
@@ -46,6 +48,7 @@
 <!--  버튼은 background 컬러가 잘 안들어가는데 이럴때는 backgroundTint를 해주면 우선적으로 적용 가능-->
 
 <TextView
+    android:id="@+id/gender_text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="성별 숨김 영역"
@@ -65,6 +68,7 @@
 <!--   인풋 타입으로 텍스트 타입을 지정-->
 
     <EditText
+        android:id="@+id/name_edit"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -81,6 +85,7 @@
         android:layout_marginTop="10dp"
         />
     <TextView
+        android:id="@+id/name_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="이름 숨김 영역"
@@ -103,6 +108,7 @@
 
 
     <Button
+        android:id="@+id/birth_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="클릭"
@@ -123,6 +129,7 @@
         />
 
     <TextView
+        android:id="@+id/birth_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="나이 숨김 영역"
